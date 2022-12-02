@@ -30,8 +30,4 @@
   for (const event of hideEvents) {
     scrollEl.addEventListener(event, hideHandler, options);
   }
-
-  for (const event of showEvents) {
-    scrollEl.addEventListener(event, showHandler, options);
-  }
 })();
