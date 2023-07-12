@@ -11,6 +11,9 @@
     "128": "icon128.png",
     "300": "icon300.png"
   },
+  "permissions": [
+    "<all_urls>"
+  ],
   "content_scripts": [
     {
       "matches": [
